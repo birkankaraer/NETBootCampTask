@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "firstTask", "firstTask", "{CE4BCE4D-A16D-44C9-8E18-840DF7587A07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{26A14833-3587-411A-9D7C-FACE6A818C99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "secondTask", "secondTask", "{3B51D1C0-E85B-4A56-A5D2-84ED8070FDC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI2", "WebAPI2\WebAPI2.csproj", "{CCB4A1AE-24CC-448A-9893-BB04E02FD134}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26A14833-3587-411A-9D7C-FACE6A818C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A14833-3587-411A-9D7C-FACE6A818C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A14833-3587-411A-9D7C-FACE6A818C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A14833-3587-411A-9D7C-FACE6A818C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB4A1AE-24CC-448A-9893-BB04E02FD134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB4A1AE-24CC-448A-9893-BB04E02FD134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB4A1AE-24CC-448A-9893-BB04E02FD134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB4A1AE-24CC-448A-9893-BB04E02FD134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26A14833-3587-411A-9D7C-FACE6A818C99} = {CE4BCE4D-A16D-44C9-8E18-840DF7587A07}
+		{CCB4A1AE-24CC-448A-9893-BB04E02FD134} = {3B51D1C0-E85B-4A56-A5D2-84ED8070FDC3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92CA8A5E-1171-4BDE-8185-027995630A7D}
+	EndGlobalSection
+EndGlobal
