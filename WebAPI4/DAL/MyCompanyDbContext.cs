@@ -8,6 +8,8 @@ namespace WebAPI4.DAL
         {
             optionsBuilder.UseSqlServer("Server=.;Database=MyCompanyDb;Trusted_Connection=True; TrustServerCertificate=True");
         }
+        public DbSet<WebUser> WebUsers { get; set; }
+        public DbSet<Order> Orders { get; set; }
         public DbSet<Employee> Employees { get; set; }
 
     }
