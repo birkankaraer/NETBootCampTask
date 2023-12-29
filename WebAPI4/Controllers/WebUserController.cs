@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebAPI4.DAL;
 
 namespace WebAPI4.Controllers
@@ -17,7 +18,7 @@ namespace WebAPI4.Controllers
         [HttpGet("getall")]
         public IActionResult GetAll()
         {
-            var webUsers = _context.WebUsers.ToList();
+            var webUsers = _context.WebUsers.Include(x=>x.Order).ToList();
             return Ok(webUsers);
         }
 
