@@ -12,7 +12,7 @@ using WebAPI4.DAL;
 namespace WebAPI4.Migrations
 {
     [DbContext(typeof(MyCompanyDbContext))]
-    [Migration("20231229184546_init")]
+    [Migration("20231229190037_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -85,7 +85,8 @@ namespace WebAPI4.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("TotalPrice")
-                        .HasColumnType("decimal(18,2)");
+                        .HasPrecision(9, 2)
+                        .HasColumnType("decimal(9,2)");
 
                     b.HasKey("Id");
 
