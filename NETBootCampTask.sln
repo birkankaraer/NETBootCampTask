@@ -5,15 +5,15 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "firstTask", "firstTask", "{CE4BCE4D-A16D-44C9-8E18-840DF7587A07}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{26A14833-3587-411A-9D7C-FACE6A818C99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "firstTask.WebAPI", "WebAPI\firstTask.WebAPI.csproj", "{26A14833-3587-411A-9D7C-FACE6A818C99}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "secondTask", "secondTask", "{3B51D1C0-E85B-4A56-A5D2-84ED8070FDC3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI2", "WebAPI2\WebAPI2.csproj", "{CCB4A1AE-24CC-448A-9893-BB04E02FD134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "secondTask.WebAPI", "WebAPI2\secondTask.WebAPI.csproj", "{CCB4A1AE-24CC-448A-9893-BB04E02FD134}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "thirdTask", "thirdTask", "{93888F2E-0B20-4780-99AF-969AD71FFC34}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI4", "WebAPI4\WebAPI4.csproj", "{D1554DA3-24B9-417C-BC97-B48665F061C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thirdandfourthTask.WebAPI", "WebAPI4\thirdandfourthTask.WebAPI.csproj", "{D1554DA3-24B9-417C-BC97-B48665F061C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
